@@ -1,0 +1,194 @@
+body{
+    margin:auto;
+    background-color:rgb(232, 196, 231)
+}
+a{
+    text-decoration: none;
+}
+/*Header Css*/
+header{
+    height:60px;
+    /* border:2px  solid red; */
+    background-color:#3b2632;
+    color:white
+    
+}
+
+button{
+    height:38px;
+    width:100px;
+    background-color:white;
+    color:rgb(144, 140, 140)
+}
+
+#login{
+    background-color:rgb(195, 226, 195);
+}
+
+#register{
+    background-color:rgb(177, 224, 243);
+}
+
+#icon{
+    float:left;
+    display:flex;
+}
+
+#icon > h1{
+    margin:5%
+}
+#icon > button{
+    margin: 5%
+}
+#social{
+    float:right;
+    margin-top: 12px;
+    margin-right: 3%;
+}
+
+/*Search Css*/
+#search{
+    height:450px;
+    /* border:5px  solid blue; */
+    background-image:url('images/foodWallpaper.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 450px ;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left: 45%;
+    margin-top:3%;
+    position: absolute;
+}
+
+#logo > span{
+    font-size:80px;
+    margin-left: 24%;
+    margin-top:16%;
+    position: absolute;
+}
+
+#heading{
+    font-size:50px;
+    margin-left: 29%;
+    margin-top:15%;
+    position: absolute;
+    color:white
+}
+
+.dropdown{
+    height:60px;
+    width: 50%;
+    margin-left: 27%;
+    margin-top: 22%;
+    position: absolute;
+    /* border:2px solid white */
+
+}
+
+
+select{
+    height:60px;
+    width:40%;
+    font-size:15px;
+    text-align:center  
+}
+
+.restSelect{
+    width:59% 
+}
+
+/*QuickSearch Css*/
+
+#quickSearch{
+    /* height:600px; */
+    /* border:5px  solid green; */
+    width:80%;
+    margin-left:10%;
+    margin-top:2%;
+}
+
+#quickHeading{
+    font-size:30px;
+    display:block;
+    color:#3b2632;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:2%;
+}
+#quickSubHeading{
+    font-size:20px;
+    color:gray;
+    display:block;
+    line-height: 2;
+    margin-left:2%;
+}
+
+.tileContainer{
+    width: 30%;
+    height:180px;
+    display:inline-block;
+    margin-left:2%;
+    margin-top:3%;
+    box-shadow: 10px 20px 5px gray;
+}
+
+.tileComponent1{
+    width:50%;
+    float:left;
+}
+
+.tileComponent1 > img{
+    width: 100%;
+    height: 100%
+}
+
+.tileComponent2{
+    width:45%;
+    float:left;
+    margin-left: 4%;
+    margin-top: 15%;
+}
+.componentHeading{
+    color: #3b2632;
+    font-size:25px;
+}
+.componenSubtHeading{
+    color: gray;
+    font-size:20px;
+}
+
+/*Footer Css*/
+Footer{
+    /* height:100px; */
+    margin-top:3%;
+    background-color: #3b2632;
+    color:white;
+    text-align: center;
+}
+
+#footText{
+   
+    font-size: 28px;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    display: inline-block;
+    border-right: 2px solid white;
+}
+
+.noBorder{
+    border:none
+}
+
+.socialIcon{
+    height:50px;
+    width:50px
+}
